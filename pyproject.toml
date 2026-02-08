@@ -13,3 +13,10 @@ dependencies = [
     "scikit-learn>=1.8.0",
     "seaborn>=0.13.2",
 ]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "kaleido>=1.2.0",
+    "nbformat>=5.10.4",
+]
